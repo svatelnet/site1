@@ -1,0 +1,40 @@
+body {
+    background: url(ima.jpg);
+}
+
+.n2 {
+    padding-top: 5px;
+    color: #447aad;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+}
+
+.n1 {
+    height: 60px;
+    border-bottom: 1.5px solid #ffa908;
+    /*margin-bottom: 7px;
+    padding-top: 10px;*/
+    vertical-align: baseline;
+    padding: 5px;
+}
+
+.n1:hover {
+    background-color: rgb(223, 215, 215);
+}
+
+h1 {
+    color: #447aad;
+    font-family: Montserrat, sans-serif;
+    font-weight: bold;
+}
+
+.welc {
+    padding-top: 150px;
+}
+
+.event{
+    display: flex;
+    justify-content: space-arround;
+    padding-top: 20px;
+}
+

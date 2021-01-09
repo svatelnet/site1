@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: Montserrat, sans-serif;
+    /*display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat, sans-serif;*/
+}
+
+.auth{
+    display: flex;
+    height: 100vh;
+    /*width: 100%; */   
+}
+.hello {
+    width: 62%;
+    height: 100%;
+    background-color: #7c9ab7;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 20px;
+    padding-top: 80px;
+}
+.reg1 {
+    width: 38%;
+    height: 100%;
+    /*display: flex;*/
+}
+.reg {
+    display: flex;
+    /*align-items: center;*/
+    padding-top: 200px;
+    justify-content: center;
+}
+.reg2 {
+    display: flex;
+    align-items: center;
+    padding-top: 37px;
+    justify-content: center;
+}
+a {
+    color: #7c9ab7;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 400px;
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+}
+#t {
+    margin: 5px 0;
+    padding: 5px;
+    border: unset;
+    border-bottom: 2px solid #e3e3e3;
+    outline: none;
+}
+button {
+    padding: 10px;
+    background: #e3e3e3;
+    border: unset;
+    cursor: pointer;
+}
+
+.msg {
+    border: 2px solid #ffa908;
+    border-radius: 3px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.logout {
+    color: #b7625c;
+}
+
+.hh, .pp{
+    color: #e3e3e3;
+}
+
+.pp {
+    font-size: 120%;
+    padding-top: 35px;
+    line-height: 2;
+}
+
+img {
+    padding-top: 30px;
+    width: 230px;
+    height: 230px;
+    /*padding-bottom: 7px;*/
+}
+
+/*.i {
+    margin-left: auto;
+    margin-right: auto;
+}*/
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.i {
+    padding-right: 25px;
+}
+
+.i1 {
+    padding-left: 35px;
+}
